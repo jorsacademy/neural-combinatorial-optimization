@@ -1,4 +1,5 @@
 import numpy as np
+
 from sym_nco.symmetry import (
     dihedral_augmentations,
     nearest_neighbor_tour,
