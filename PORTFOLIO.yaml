@@ -1,0 +1,21 @@
+schema_version: 1
+repository: neural-combinatorial-optimization
+role: umbrella
+axis: methodology
+area: neural-combinatorial-optimization
+status: active
+owner: jorsacademy
+projects:
+  - capacitated-vrp-rl4co-pomo-attention-model-python
+  - decision-transformer-combinatorial-optimization
+  - diffusion-neural-combinatorial-optimization-tsp-pytorch
+  - jumanji-combinatorial-optimization-rl
+  - multi-objective-neural-combinatorial-optimization
+  - neural-combinatorial-optimization-tsp
+  - neural-combinatorial-optimization-tsp-attention-model-pytorch
+  - neural-large-neighborhood-search-cvrp
+  - test-time-adaptation-neural-combinatorial-optimization
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
