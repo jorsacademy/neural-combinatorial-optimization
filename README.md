@@ -15,6 +15,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 - [`neural-combinatorial-optimization-tsp`](projects/neural-combinatorial-optimization-tsp/)
 - [`neural-combinatorial-optimization-tsp-attention-model-pytorch`](projects/neural-combinatorial-optimization-tsp-attention-model-pytorch/)
 - [`neural-large-neighborhood-search-cvrp`](projects/neural-large-neighborhood-search-cvrp/)
+- [`deepaco-neural-metaheuristic-optimization`](projects/deepaco-neural-metaheuristic-optimization/)
 - [`test-time-adaptation-neural-combinatorial-optimization`](projects/test-time-adaptation-neural-combinatorial-optimization/)
 
 Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
