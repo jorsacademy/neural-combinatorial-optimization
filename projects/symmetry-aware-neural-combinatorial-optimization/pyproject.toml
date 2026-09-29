@@ -13,3 +13,6 @@ dev=["pytest>=8","ruff>=0.6"]
 
 [tool.setuptools.packages.find]
 where=["src"]
+
+[tool.ruff.lint.isort]
+known-first-party=["sym_nco"]
