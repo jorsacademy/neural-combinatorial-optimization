@@ -9,6 +9,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 
 - [`capacitated-vrp-rl4co-pomo-attention-model-python`](projects/capacitated-vrp-rl4co-pomo-attention-model-python/)
 - [`decision-transformer-combinatorial-optimization`](projects/decision-transformer-combinatorial-optimization/)
+- [`collaborative-construction-revision-nco`](projects/collaborative-construction-revision-nco/)
 - [`diffusion-neural-combinatorial-optimization-tsp-pytorch`](projects/diffusion-neural-combinatorial-optimization-tsp-pytorch/)
 - [`jumanji-combinatorial-optimization-rl`](projects/jumanji-combinatorial-optimization-rl/)
 - [`multi-objective-neural-combinatorial-optimization`](projects/multi-objective-neural-combinatorial-optimization/)

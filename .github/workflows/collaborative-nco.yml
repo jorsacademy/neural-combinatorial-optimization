@@ -1,0 +1,30 @@
+name: Collaborative NCO
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "projects/collaborative-construction-revision-nco/**"
+      - ".github/workflows/collaborative-nco.yml"
+  pull_request:
+    paths:
+      - "projects/collaborative-construction-revision-nco/**"
+      - ".github/workflows/collaborative-nco.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11","3.12"]
+    defaults:
+      run:
+        working-directory: projects/collaborative-construction-revision-nco
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: pytest -q
